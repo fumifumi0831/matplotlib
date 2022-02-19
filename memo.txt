@@ -1,0 +1,15 @@
+型：文字列str、数値integer,float
+
+リスト型：リスト[]、タプル()、辞書{}
+
+型変換
+○文字列にしたい
+    str(int)、str(float)、','.join(list)、','.(tuple)
+    もしくはfor list in lists
+    もしくはfor tuple in tuples
+
+pandasのSettingWithCopyWarningとは
+[]を含む処理を続けて行うことで警告が出る
+
+リストをfor文で回して辞書に一致する値を取り出したいときは
+zisyo[listの値]で取り出す
